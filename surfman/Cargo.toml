@@ -35,17 +35,14 @@ libc = "0.2"
 log = "0.4"
 parking_lot = "0.10.2"
 
+winit = { git = "https://github.com/rust-windowing/winit", rev = "78e5a395dac9604e851f781b6810247ead7928e3", optional = true }
+
 [dependencies.euclid]
 version = "0.22.6"
 features = []
 
 [dependencies.osmesa-sys]
 version = "0.1"
-optional = true
-
-[dependencies.winit]
-git = "https://github.com/rust-windowing/winit"
-rev = "78e5a395dac9604e851f781b6810247ead7928e3"
 optional = true
 
 [dependencies.raw-window-handle]
